@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+header {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 5px;
+    margin-top: 20px;
+}
+  
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 50%;
+    border: #795695 solid 2px;
+    border-radius: 20px;
+    background-color: #795695;
+    color: #eeeeee;
+}
+  
+.container img {
+    width: 200px;
+}
+  
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 35%;
+    text-align: left;
+    list-style-type: "→";
+}
+  
+.container:hover {
+    border: #655090 solid 5px;
+}
