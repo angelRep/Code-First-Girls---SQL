@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header, footer {
+    padding: 30px 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.nav a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color:darkslategrey;
+}
+
+.cover {
+    background: url("./images/bakery-bread-basket.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover h1 {
+    color: white;
+    text-align: center;
+    font-size:100px;
+    font-weight: normal;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content #title {
+    width: fit-content;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size:x-large;
+}
+
+.p-box {
+    padding: 10px;
+    background-color: rgb(235, 231, 231);
+    border-left: 7px solid rgba(0, 0, 0, 0.16);
+}
+
+.p-box span {
+    font-style: italic;
+}
+
+.content img {
+    width: 100%;
+    margin: 20px 0;
+}
+
