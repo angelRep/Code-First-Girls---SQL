@@ -74,7 +74,7 @@ else if (op == 'p') {
     result = power(num1, num2);
 }
 
-var output = `${(op != 's')?num1:""} ${(op == 's')?"Square root of ":(op  == 'p')?" in the power of ":op} ${num2} = ${result}`;
+var output = `${(op != 's')?num1:""} ${(op == 's')?"Square root of ":(op  == 'p')?" to the power of ":op} ${num2} = ${result}`;
 
 document.getElementById("equation").innerHTML = output;
 
