@@ -14,3 +14,6 @@ https://htmlpreview.github.io/?https://raw.githubusercontent.com/angelRep/Code-F
 
 Preview Homework 5:
 https://htmlpreview.github.io/?https://raw.githubusercontent.com/angelRep/Code-First-Girls---WebDev/main/myHW_AngelikiN_Week5/index.html
+
+Preview Homework 6:
+https://github.com/angelRep/Code-First-Girls---WebDev/blob/main/myHW_Week6/Project_Homework_Week6.txt
